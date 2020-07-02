@@ -1,0 +1,28 @@
+{
+    "name": "@j127/bullmq_experiments",
+    "version": "0.1.0",
+    "description": "Quick experiments while reading the docs.",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "start": "node ./dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/j127/bullmq_experiments.git"
+    },
+    "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
+    "license": "UNLICENSED",
+    "private": true,
+    "bugs": {
+        "url": "https://github.com/j127/bullmq_experiments/issues"
+    },
+    "homepage": "https://github.com/j127/bullmq_experiments#readme",
+    "dependencies": {
+        "bullmq": "^1.8.13"
+    },
+    "devDependencies": {
+        "typescript": "^3.9.6"
+    }
+}
